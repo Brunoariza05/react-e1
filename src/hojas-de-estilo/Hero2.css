@@ -21,3 +21,19 @@
     width: 680px;
     line-height: 30px;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    /* hero 2 */
+    .Hero2 {
+        width: 100%;
+        flex-wrap: wrap;
+        height: 350px;
+    }
+    #hero2-titulo {
+        font-size: 47px;
+    }
+    #hero2-subtitulo {
+        width: 90%;
+        font-size: 18px;
+    }
+}

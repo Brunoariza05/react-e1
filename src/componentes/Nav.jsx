@@ -8,9 +8,9 @@ const Nav = () => {
          <nav className="nav">
             <FontAwesomeIcon icon={faBook} className="logo"/>
             <ul>
-                <li><a href="#NOSOTROS">NOSOTROS</a></li>
-                <li><a href="#DESTACADOS">DESTACADOS</a></li>
-                <li><a href="#CONTACTO">CONTACTO</a></li>
+                <li><a href="#NOSOTROS" id="lista">NOSOTROS</a></li>
+                <li><a href="#DESTACADOS" id="lista">DESTACADOS</a></li>
+                <li><a href="#CONTACTO" id="lista">CONTACTO</a></li>
             </ul>
          </nav>
     );
