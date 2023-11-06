@@ -41,12 +41,12 @@ img {
     margin: 15px;
 }
 
-@media (min-width: 320px) and (max-width: 612px) {
+@media (min-width: 280px) and (max-width: 612px) {
     /* productows */
     .products {
         display: flex;
         flex-direction: column;
-        height: 2300px;
+        height: 100%;
         width: 100%;
         text-align: center;
     }

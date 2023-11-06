@@ -30,7 +30,7 @@
     margin-left: 35px;
 }
 
-@media (min-width: 320px) and (max-width: 612px) {
+@media (min-width: 280px) and (max-width: 612px) {
     /* nav */
     #titulo{
         font-size: 47px;
@@ -41,7 +41,7 @@
     .hero {
         display: flex;
         flex-wrap: wrap;
-        height: 500px;
+        height: 100%;
         width: 100%;
     }
     .heroi {
