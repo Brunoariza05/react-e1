@@ -19,10 +19,6 @@ function App() {
       <Route path='/PRODUCTOS' element={<Products />}/>
       <Route path='/CONTACTO' element={<Contacto />}/>
     </Routes>
-    {/* <Hero />
-    <Hero2 />
-    <Products />
-    <Contacto /> */}
     <Footer /> 
     </>
   );
