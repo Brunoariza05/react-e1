@@ -70,60 +70,61 @@ p {
         height: 86vh;
     }
     #hero2-titulo {
-        font-size: 40px;
-        margin-top: 10px;
+        font-size: 5vh;
+        margin-top: 2vh;
     }
     #hero2-subtitulo {
         width: 90%;
-        font-size: 18px;
+        font-size: 5vh;
     }
     #contenedor-cards-why {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
         height: 100%;
-        gap: 0px;
+        gap: 0vh;
         align-items: center;
         justify-content: center;
-        margin-bottom: 15px;
-        margin-top: 50px;
+        margin-bottom: 2vh;
+        margin-top: 4vh;
     }
     .why {
         width: 90%;
-        height: 150px;
-        font-size: 20px;
-        margin-top: 10px;
+        height: 20vh;
+        font-size: 2.5vh;
+        margin-top: 1.5vh;
     }
     .icon-card {
-        font-size: 25px;
-        margin-bottom: 5px;
+        font-size: 4vh;
+        margin-bottom: 2vh;
     }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
     .Hero2 {
         height: 86vh;
+        width: 100%;
     }
     #contenedor-cards-why {
         display: flex;
         flex-direction: column;
-        gap: 15px;
-        margin-top: 60px;
-        margin-bottom: 20px;
+        gap: 2vh;
+        margin-bottom: 2vh;
+        margin-top: 10vh;
     }
     .why {
-        margin-top: 10px;
-        height: 150px;
-        font-size: 25px;
-        gap: 5px;
+        font-size: 2.5vh;
+        margin-top: 0.6vh;
+        height: 20vh;
     }
     .icon-card {
-        font-size: 30px;
-        margin-bottom: 5px;
+        font-size: 4vh;
+        margin-bottom: 2vh;
     }
     #hero2-titulo {
-        font-size: 60px;
-        margin-top: 10px;
+        font-size: 5vh;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
     }
 }
 
@@ -133,16 +134,22 @@ p {
     }
     #contenedor-cards-why {
         flex-direction: column;
-        gap: 0px;
-        margin-top: 60px;
-        margin-bottom: 20px;
+        gap: 2vh;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
     }
     .why {
-        margin-top: 25px;
+        height: 20vh;
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vh;
+        margin-top: 0.6vh;
     }
     #hero2-titulo {
-        font-size: 80px;
-        margin-top: 20px;
+        font-size: 5vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 }
 
@@ -152,15 +159,21 @@ p {
     }
     #contenedor-cards-why {
         flex-direction: column;
-        gap: 10px;
-        margin-top: 60px;
-        margin-bottom: 20px;
+        gap: 2vh;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
     }
     .why {
-        margin-top: 25px;
+        height: 20vh;
+        width: 40vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5vh;
+        margin-top: 0.6vh;
     }
     #hero2-titulo {
-        font-size: 80px;
-        margin-top: 20px;
+        font-size: 5vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 }

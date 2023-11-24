@@ -12,48 +12,50 @@
 
 #contacto-titulo {
     font-family: Dancing Script;
-    font-size: 80px;
-    margin-bottom: 50px;
+    font-size: 5vh;
+    margin-bottom: 5vh;
 }
 
 #contacto-contenedor {
     display: flex;
     justify-content: space-between;
     align-items: space-between;
-    gap: 70px;
+    gap: 2vw;
 }
 
 #mapa-contacto {
-    height: 400px;
-    width: 350px;
+    height: 60vh;
+    width: 45vw;
     border-radius: 20px;
 }
 
 form {
-    margin-top: 13px;
+    margin-top: 1.5vh;
     background-color: white;
     color: black;
-    height: 400px;
-    width: 350px;
+    height: 60vh;
+    width: 45vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 3vh;
     border-radius: 20px;
 }
 
 #contacto-form-titulo {
-    margin-left: 200px;
-    margin-top: 30px;
+    margin-left: 15vh;
+    margin-top: 5vh;
     font-family: Playfair Display;
     font-weight: 1000;
+    font-size: 3vh;
 }
 
 input { 
     width: 80%;
-    margin-top: 7px;
-    height: 30px;
+    font-size: 2vh;
+    margin-top: 0.6vh;
+    height: 5vh;
     text-align: center;
     border-radius: 3px;
     font-family: Playfair Display;
@@ -63,7 +65,7 @@ input {
     font-weight: 1000;
 }
 
-@media (min-width: 280px) and (max-width: 767px) {
+@media (min-width: 280px) and (max-width: 612px) {
     #contacto {
         height: 86vh;
     }
@@ -75,14 +77,14 @@ input {
         width: 100%;
     }
     #contacto-titulo {
-        margin: 0px;
-        font-size: 60px;
+        margin-bottom: 3vh;
+        font-size: 5vh;
     }
     form {
         margin-top: 0px;
         margin-bottom: 10px;
-        height: 240px;
-        width: 250px;
+        height: 32vh;
+        width: 35vh;
         gap: 0px;
     }
     #contacto-form-titulo {
@@ -93,8 +95,8 @@ input {
 
     #mapa-contacto {
         margin: 0px;
-        height: 220px;
-        width: 250px;
+        height: 32vh;
+        width: 35vh;
     }
     input {
         margin-bottom: 5px;
@@ -105,15 +107,16 @@ input {
         height: 86vh;
     }
     #contacto-contenedor {
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 2vh;
         width: 100%;
     }
     form {
         margin-top: 0px;
         margin-bottom: 10px;
+        height: 60vh;
+        width: 45vw;
     }
     #contacto-form-titulo {
         margin: 0px;
@@ -122,6 +125,8 @@ input {
     }
 
     #mapa-contacto {
+        height: 60vh;
+        width: 45vw;
         margin: 0px;
     }
 }   

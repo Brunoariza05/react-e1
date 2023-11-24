@@ -1,8 +1,12 @@
 import React from "react";
 import ProductosTemplate from "./ProductosTemplate";
 import '../hojas-de-estilo/Products.css';
+import { useMenu } from "../Contexto/ContextoMenu";
+import Menu from "../Menu/Menu";
 
 const Products = () => {
+
+    const { menuAbierto } = useMenu();
 
     const productos = [
         {titulo: "El Principito", imagen: "/imagenes/principito.webp", precio: "$5000"},
@@ -28,6 +32,7 @@ const Products = () => {
             <ProductosTemplate key={index} {...product} />
              ))}        
             </div>
+            <Menu />
         </section>
     )
 };
