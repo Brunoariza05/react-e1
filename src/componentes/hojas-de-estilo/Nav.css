@@ -2,7 +2,7 @@
     background-color: white;
     color: black;
     display: flex;
-    height: 60px;
+    height: 80px;
     align-items: center;
     justify-content: space-between;
     top: 0;
@@ -35,7 +35,7 @@ li:hover {
 }
 
 .logos {
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 13px;
     margin-top: 0px;
 }
