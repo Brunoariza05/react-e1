@@ -2,9 +2,9 @@
     background-color: white;
     color: black;
     display: flex;
-    justify-content: space-between;
-    height: 22px;
+    height: 50px;
     align-items: center;
+    justify-content: space-between;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,8 +22,11 @@ ul {
 li {
     margin-right: 5px;
     margin-top: 5px;
-    font-family: special Elite;
+    font-family: Playfair Display;
+    font-weight: 1000;
     color: black;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 li:hover {
@@ -31,10 +34,14 @@ li:hover {
     cursor: pointer;
 }
 
-.logo {
-    font-size: 15px;
-    margin-left: 5px;
+.logos {
+    font-size: 35px;
+    margin-left: 13px;
     margin-top: 0px;
+}
+
+.menu-icon {
+    display: none;
 }
 
 a:visited {
@@ -47,6 +54,25 @@ a {
 
 #lista {
     color: black;
+}
+
+@media (min-width: 280px) and (max-width: 612px) { 
+    .nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-icon {
+        display: flex;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    ul {
+        display: none;
+    }
+    .logos {
+        height: 30px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

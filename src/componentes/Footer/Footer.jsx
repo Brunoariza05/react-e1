@@ -8,7 +8,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
     return (
         <section className="Footer" id="CONTACTO">
-            <div className="logos">
+            <div className="logof">
             <a href="https://www.instagram.com" target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon"/></a>
             <a href="https://www.youtube.com" target="_blank"><FontAwesomeIcon icon={faYoutube} className="icon"/></a>
             <a href="https://www.web.whatsapp.com" target="_blank"><FontAwesomeIcon icon={faPhone} className="icon"/></a>

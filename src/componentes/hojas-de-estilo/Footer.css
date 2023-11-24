@@ -1,6 +1,6 @@
 .Footer {
-    background-color: black;
-    color: white;
+    color: black;
+    background-color: white;
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -10,8 +10,14 @@
 .terminos {
     font-size: 10px;
     font-weight: 1000;
-    font-family: Special Elite;
+    font-family: Playfair Display;
     margin-right: 10px;
+    margin-bottom: 4px;
+    color: black;
+}
+
+#terminos {
+    color: black;
 }
 
 .terminos:hover {
@@ -20,8 +26,12 @@
 }
 
 .icon {
-    color: white;
+    color: black;
     margin-left: 10px;
+}
+
+.logof {
+    font-size: 20px;
 }
 
 .icon:hover {
@@ -30,5 +40,5 @@
 }
 
 #terminos:visited {
-    color: white;
+    color: black;
 }
