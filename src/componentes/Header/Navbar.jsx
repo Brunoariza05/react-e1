@@ -15,16 +15,16 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faBook} className="logos"/>
             <ul>
                 <li>
-                <Link to="/Hero">INICIO</Link>
+                <Link to="/Hero" className="link">INICIO</Link>
                 </li>
                 <li>
-                <Link to="/Hero2">NOSOTROS</Link>
+                <Link to="/Hero2" className="link">NOSOTROS</Link>
                 </li>
                 <li>
-                <Link to="/Productos">PRODUCTOS</Link>
+                <Link to="/Productos" className="link">PRODUCTOS</Link>
                 </li>
                 <li>
-                <Link to="/Contacto">CONTACTO</Link>
+                <Link to="/Contacto" className="link">CONTACTO</Link>
                 </li>
             </ul>
             <FontAwesomeIcon icon={faBars} className="menu-icon" onClick={toggleMenu}/>

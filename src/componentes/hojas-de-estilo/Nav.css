@@ -44,14 +44,27 @@ li:hover {
     display: none;
 }
 
-link:visited {
+.link:visited {
     color: black;
 }
 
-link {
+.link {
     color: black;
     text-decoration: none;
 }
+
+.link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .link:hover,
+  .link:active,
+  .link:focus {
+    color: black;
+    font-weight: bold;
+    /* Otros estilos adicionales según sea necesario */
+  }
 
 #lista {
     color: black;
