@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
          <nav className="nav">
             <FontAwesomeIcon icon={faBook} className="logos"/>
-            <ul>
+            <ul id="ul">
                 <li className="li">
                 <Link to="/Hero" className="link" onClick={useMenu}>INICIO</Link>
                 </li>
