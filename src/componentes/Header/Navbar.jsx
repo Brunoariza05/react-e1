@@ -14,16 +14,16 @@ const Navbar = () => {
          <nav className="nav">
             <FontAwesomeIcon icon={faBook} className="logos"/>
             <ul>
-                <li>
+                <li className="li">
                 <Link to="/Hero" className="link" onClick={useMenu}>INICIO</Link>
                 </li>
-                <li>
+                <li className="li">
                 <Link to="/Hero2" className="link" onClick={useMenu}>NOSOTROS</Link>
                 </li>
-                <li>
+                <li className="li">
                 <Link to="/Productos" className="link" onClick={useMenu}>PRODUCTOS</Link>
                 </li>
-                <li>
+                <li className="li">
                 <Link to="/Contacto" className="link" onClick={useMenu}>CONTACTO</Link>
                 </li>
             </ul>
