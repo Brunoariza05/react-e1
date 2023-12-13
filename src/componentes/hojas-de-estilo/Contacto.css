@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 60px;
     align-items: center;
     color: white;
     background-color: black;
@@ -72,6 +73,7 @@ input {
 @media (min-width: 280px) and (max-width: 612px) {
     #contacto {
         height: 86vh;
+        margin-top: 60px;
     }
     #contacto-contenedor {
         flex-direction: column;
@@ -109,6 +111,7 @@ input {
 @media (min-width: 613px) and (max-width: 767px) {
     #contacto {
         height: 86vh;
+        margin-top: 60px;
     }
     #contacto-contenedor {
         justify-content: center;

@@ -12,6 +12,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+    margin-bottom: 60px;
 }
 
 ul {
@@ -86,7 +87,6 @@ li:hover, .carrito-icon:hover {
   .link:focus {
     color: black;
     font-weight: bold;
-    /* Otros estilos adicionales según sea necesario */
   }
 
 #lista {

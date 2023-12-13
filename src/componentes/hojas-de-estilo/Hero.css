@@ -1,6 +1,7 @@
 .hero {
     background-color: black;
     height: 95vh;
+    margin-top: 60px;
     color: white;
     display: flex;
     justify-content: center;
@@ -61,6 +62,7 @@
         display: flex;
         flex-wrap: wrap;
         height: 86vh;
+        margin-top: 60px;
         width: 100%;
     }
     .heroi {
@@ -84,6 +86,7 @@
     .hero {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 60px;
         height: 86vh;
         width: 100%;
     }
@@ -116,6 +119,7 @@
     }
     .hero {
         display: flex;
+        margin-top: 60px;
         flex-direction: column;
         height: 86vh;
         width: 100%;
@@ -138,6 +142,7 @@
         margin-left: 5vh;
     }
     .hero {
+        margin-top: 60px;
         display: flex;
         flex-wrap: wrap;
         height: 86vh;
