@@ -5,12 +5,15 @@ import { faTruckFast } from '@fortawesome/free-solid-svg-icons';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { useMenu } from "../Contexto/ContextoMenu";
+import { useCarrito } from "../Contexto/ContextoCarrito";
+import Carrito from "../Carrito/Carrito";
 import Menu from "../Menu/Menu";
 
 
 const Hero2 = () => {
 
     const { menuAbierto } = useMenu();
+    const { carritoAbierto } = useCarrito();
 
     return (
         <section className="Hero2" id="NOSOTROS">
@@ -21,6 +24,7 @@ const Hero2 = () => {
             <div className="why"><p>Tenemos 12 sucursales distribuidas en el pais y 2 en el exterior</p><FontAwesomeIcon icon={faMapLocationDot} className="icon-card"/>
             </div>
             </div>
+            <Carrito />
             <Menu />
         </section>
     )

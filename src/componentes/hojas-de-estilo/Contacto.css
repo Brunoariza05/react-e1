@@ -5,22 +5,26 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background: #f12711;
-    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #f5af19, #f12711);
+    background-color: black;
 }
 
 #contacto-titulo {
-    font-family: Dancing Script;
-    font-size: 5vh;
-    margin-bottom: 5vh;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 8vh;
+    letter-spacing: 2px;
+    margin-bottom: 2vh;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #contacto-contenedor {
     display: flex;
     justify-content: space-between;
     align-items: space-between;
-    gap: 2vw;
+    gap: 1vw;
 }
 
 #mapa-contacto {
@@ -46,7 +50,7 @@ form {
 #contacto-form-titulo {
     margin-left: 15vh;
     margin-top: 5vh;
-    font-family: Playfair Display;
+    font-family: 'Amatic SC', sans-serif;
     font-weight: 1000;
     font-size: 3vh;
 }
@@ -58,7 +62,7 @@ input {
     height: 5vh;
     text-align: center;
     border-radius: 3px;
-    font-family: Playfair Display;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 #enviar-boton {

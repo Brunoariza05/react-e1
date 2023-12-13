@@ -2,12 +2,15 @@ import React, { useContext } from "react";
 import '../hojas-de-estilo/Hero.css';
 import { useMenu } from "../Contexto/ContextoMenu";
 import Menu from "../Menu/Menu";
+import Carrito from "../Carrito/Carrito";
+import { useCarrito } from "../Contexto/ContextoCarrito";
 import { ProveedorMenu } from '../Contexto/ContextoMenu';
 
 
 const Hero = () => {
 
     const { menuAbierto } = useMenu();
+    const { carritoAbierto } = useCarrito();
 
     return (
         <section className="hero" id="INICIO"> 
@@ -19,6 +22,7 @@ const Hero = () => {
         </div>
         <img src="/imagenes/books3.jpg"className="heroi"/>
         <img src="/imagenes/books4.jpg"className="heroi" id="img-no"/>
+        <Carrito />
         <Menu />
         </section>
     )

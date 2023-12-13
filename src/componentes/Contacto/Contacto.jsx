@@ -2,6 +2,7 @@ import React from "react";
 import '../hojas-de-estilo/Contacto.css';
 import mapa from "./mapa.jpeg";
 import Menu from "../Menu/Menu";
+import Carrito from "../Carrito/Carrito";
 import { useMenu } from "../Contexto/ContextoMenu";
 
 const Contacto = () => {
@@ -22,6 +23,7 @@ const Contacto = () => {
                 <input type="submit" id="enviar-boton"/>
             </form>
             </div>
+            <Carrito />
             <Menu />
         </section>
     )

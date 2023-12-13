@@ -1,14 +1,17 @@
 .menus {
-    height: 200px;
+    height: 35vh;
     width: 100%;
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background: #f12711;
+    position: fixed;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    position: absolute;
     top: 0;
+    z-index: 1000;
 }
 
 #lista-menu {
@@ -18,16 +21,17 @@
     font-family: Playfair Display;
     font-size: 30px;
     color: black;
-    gap: 30px;
+    margin-bottom: 1vh;
 }
 
 @media (min-width: 280px) and (max-width: 612px) {
     .menu {
         display: flex;
-        width: 100%;
+        width: 100vw;
+        top: 0;
     }
     .menus {
-        width: 100%;
+        width: 100vw;
         display: none;
         position: fixed;
         z-index: 200;
@@ -40,5 +44,8 @@
     #lista-menu {
         display: flex;
         color: black;
+    }
+    .link {
+        font-size: 3.8vh;
     }
 }

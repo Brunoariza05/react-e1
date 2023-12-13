@@ -1,8 +1,7 @@
 .products {
-    background: #f12711;
-    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #f5af19, #f12711);    color: white;
-    height: 960px;
+    background-color: black;
+    color: white;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,10 +10,51 @@
 }
 
 #titulo-destacados {
-    font-family: Dancing script;
-    font-size: 5vh;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 8vh;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     margin-top: 8px;
     text-align: center;
+}
+
+.categorias-button {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 4.2vh;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    border-radius: 10px;
+}
+
+#categoria-selected {
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: black;
+}
+
+#historicos {
+    display: flex;
+}
+
+#fantasia {
+    display: flex;
+}
+
+#infantiles {
+    display: flex;
 }
 
 .contenedor-productos {
@@ -26,8 +66,8 @@
 
 .libro-destacado {
     text-align: center;
-    font-size: 17px;
-    font-family: Playfair Display;
+    font-size: 3.5vh;
+    font-family: 'Amatic SC', sans-serif;
     height: 400px;
     width: 220px;
     border-radius: 10px;
@@ -54,16 +94,15 @@ img {
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
     background: linear-gradient(to right, #f5af19, #f12711);
     color: black;
-    height: 20px;
-    width: 80px;
+    height: 3.4vh;
+    width: 15vh;
     border-radius: 10px;
-    position: absolute;
-    bottom: 0;
+    margin-top: 1vh;
     margin-bottom: 18px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 2vh;
     font-weight: 1000;
 }
 
@@ -81,6 +120,52 @@ p {
 #boton-comprar:hover {
     scale: 1.1;
     cursor: pointer;
+}
+
+#aviso-producto-agregado {
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 1vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.8);
+    color: white;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeOut 4s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+#aviso-carrito-limpio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.8); /* Rojo transparente */
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation: fadeOut 4s ease-in-out forwards;
+    animation-delay: 2s;
+    font-family: 'Amatic SC', sans-serif;
+    letter-spacing: 1vh;
+  }
+  
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
 }
 
 
@@ -109,6 +194,12 @@ p {
         text-align: center;
         flex-direction: column;
     }
+    #boton-comprar {
+        width: 26vw;
+    }
+    #categorias-contenedor {
+        display: flex;
+    }
 }
 
 @media (min-width: 613px) and (max-width: 767px) {
@@ -127,6 +218,12 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+    #categorias-contenedor {
+        width: 99%;
+    }
+    #boton-comprar {
+        width: 38%;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
@@ -141,6 +238,9 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+    #boton-comprar {
+        width: 38%;
+    }
 }
 
 @media (min-width: 1023px) and (max-width: 1500px) {
@@ -154,5 +254,8 @@ p {
         align-items: center;
         display: flex;
         flex-wrap: wrap;
+    }
+    #boton-comprar {
+        width: 38%;
     }
 }

@@ -1,7 +1,5 @@
 .hero {
-    background: #f12711;
-    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #f5af19, #f12711);
+    background-color: black;
     height: 95vh;
     color: white;
     display: flex;
@@ -16,13 +14,24 @@
     font-family: Dancing Script;
     font-size: 80px;
     margin-bottom: 30px;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #subtitulo {
-    font-family: Playfair Display;
+    font-family: 'Amatic SC', sans-serif;
     letter-spacing: 1.5px;
-    font-size: 20px;
-    margin-left: 45px;
+    font-size: 3vh;
+    font-weight: 1000;
+    margin-left: 52px;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #contenedor-hero {
@@ -69,8 +78,8 @@
         font-size: 7vh;
     }
     #subtitulo {
-        font-size: 2vh;
-        margin-left: 5vh;
+        font-size: 4vh;
+        margin-left: 25vh;
     }
     .hero {
         display: flex;
@@ -88,6 +97,11 @@
     #contenedor-hero {
         width: 150%;
         margin: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
     }
 }
 
@@ -96,7 +110,8 @@
         font-size: 7vh;
     }
     #subtitulo {
-        font-size: 2vh;
+        font-size: 5vh;
+        width: 100%;
         margin-left: 5vh;
     }
     .hero {

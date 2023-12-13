@@ -1,7 +1,8 @@
 .Footer {
     color: black;
-    background-color: white;
-    height: 30px;
+    background: #f12711;
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+    background: linear-gradient(to right, #f5af19, #f12711);    height: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
