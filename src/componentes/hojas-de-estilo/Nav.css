@@ -50,7 +50,7 @@ li:hover, .carrito-icon:hover {
 }
 
 .logos {
-    font-size: 7vh;
+    font-size: 4vh;
     margin-left: 13px;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -117,10 +117,10 @@ li:hover, .carrito-icon:hover {
         display: flex;
     } 
     .carrito-icon {
-        margin-top: 0.4vh;
-        font-size: 4.7vh;
+        margin-top: 0.3vh;
     }
     .nav {
+        margin-bottom: 0px;
         width: 100vw;
         display: flex;
         justify-content: space-between;
@@ -129,8 +129,8 @@ li:hover, .carrito-icon:hover {
     }
     .menu-icon {
         display: flex;
-        font-size: 30px;
-        margin-right: 5px;
+        font-size: 3vh;
+        margin-right: 2vh;
     }
     ul {
         display: none;
@@ -142,8 +142,15 @@ li:hover, .carrito-icon:hover {
     .nav {
         width: 100%;
         position: relative;
+        margin-bottom: 0px;
     }
     li {
         font-size: 13px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .nav {
+        width: 100%;
     }
 }
