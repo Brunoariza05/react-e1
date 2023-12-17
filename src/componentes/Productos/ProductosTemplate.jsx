@@ -7,7 +7,7 @@ const ProductosTemplate = ({producto, agregarAlCarrito}) => {
     return (
         <>
         <div className="libro-destacado" id={categoria}>
-            <h3>{titulo}</h3>
+            <h3 id="libro-titulo">{titulo}</h3>
             <img src={imagen}/>
             <p id="precio">$ {precio}</p>
             <button id="boton-comprar" onClick={() => agregarAlCarrito(producto)}><p>COMPRAR</p></button>

@@ -31,7 +31,7 @@ const Products = () => {
     {titulo: "Ana Frank", imagen: "/imagenes/ana.jpg", precio: "23000", categoria: "historicos", id: 3, cantidad: 0},
     {titulo: "100 Años De Soledad", imagen: "/imagenes/soledad.webp", precio: "15000", categoria: "fantasia", id: 4, cantidad: 0},
     {titulo: "Martin Fierro", imagen: "/imagenes/fierro.webp", precio: "10000", categoria: "historicos", id: 5, cantidad: 0},
-    {titulo: "El Señor De Los Anillos", imagen: "/imagenes/señor.webp", precio: "19000", categoria: "fantasia", id: 6, cantidad: 0},
+    {titulo: "Lord of the rings", imagen: "/imagenes/señor.webp", precio: "19000", categoria: "fantasia", id: 6, cantidad: 0},
     {titulo: "Harry Potter 1", imagen: "/imagenes/harry1.webp", precio: "30000", categoria: "fantasia", id: 7, cantidad: 0},
     {titulo: "Harry Potter 2", imagen: "/imagenes/harry2.webp", precio: "30000", categoria: "fantasia", id: 8, cantidad: 0},
     {titulo: "Harry Potter 3", imagen: "/imagenes/harry3.webp", precio: "30000", categoria: "fantasia", id: 9, cantidad: 0},

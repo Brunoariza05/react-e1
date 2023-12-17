@@ -178,9 +178,6 @@ p {
         justify-content: center;
         align-items: center;
     }
-    #precio {
-        margin-left: 130px;
-    }
     .products {
         display: flex;
         flex-direction: column;
@@ -196,11 +193,13 @@ p {
         text-align: center;
         flex-direction: column;
     }
-    #boton-comprar {
-        width: 26vw;
-    }
     #categorias-contenedor {
         display: flex;
+    }
+    #precio {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
     }
 }
 
@@ -215,17 +214,29 @@ p {
         text-align: center;
     }
     .contenedor-productos {
-        width: 80%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
     }
+    #libro-titulo {
+        font-size: 3vh;
+    }
     #categorias-contenedor {
         width: 99%;
     }
+    #precio {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .categorias-button {
+        font-size: 3vh;
+    }
     #boton-comprar {
-        width: 38%;
+        height: 2.5vh;
+        width: 14vh;
     }
 }
 
@@ -235,6 +246,12 @@ p {
         margin-top: 60px;
         height: 100%;
     }
+    .libro-destacado {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
     .contenedor-productos {
         width: 93%;
         justify-content: center;
@@ -242,15 +259,27 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+    #libro-titulo {
+        font-size: 3vh;
+    }
+    .categorias-button {
+        font-size: 3vh;
+    }
+    #precio {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
     #boton-comprar {
-        width: 38%;
+        height: 2.5vh;
+        width: 14vh;
     }
 }
 
 @media (min-width: 1023px) and (max-width: 1500px) {
     .products {
         width: 100%;
-        height: 100%;
+        height: 110%;
         margin-top: 60px;
     }
     .contenedor-productos {
@@ -260,7 +289,22 @@ p {
         display: flex;
         flex-wrap: wrap;
     }
+    #libro-titulo {
+        font-size: 2.5vh;
+        margin-top: 1vh;
+    }
+    .categorias-button {
+        font-size: 2vh;
+    }
+    #precio {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
     #boton-comprar {
-        width: 38%;
+        height: 2vh;
+        width: 10vh;
+        margin-bottom: 1.8vh;
+        font-size: 1.5vh;
     }
 }
