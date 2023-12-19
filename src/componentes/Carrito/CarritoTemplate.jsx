@@ -15,7 +15,7 @@ const CarritoTemplate = ( {producto} ) => {
         <div id='producto-agregado'>
             <div id='book-data'>
                 <p id='book-name'>{producto.titulo}</p>
-                <p id='book-price'>{producto.precio}</p>
+                <p id='book-price'>$ {producto.precio}</p>
             </div>
             <img src={producto.imagen} id='book-img'/>
             <div id='book-quantity-div'>

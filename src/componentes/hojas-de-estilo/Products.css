@@ -6,20 +6,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0px;
+    margin-top: 0;
     text-align: center;
 }
 
 #titulo-destacados {
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.5vh;
     font-size: 8vh;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
     background: linear-gradient(to right, #f5af19, #f12711);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    margin-top: 8px;
+    margin-top: 1vh;
     text-align: center;
 }
 
@@ -30,14 +30,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    width: 150px;
+    height: 5vh;
+    width: 10vw;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
     background: linear-gradient(to right, #f5af19, #f12711);
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    border-radius: 10px;
+    border-radius: 1.5vh;
 }
 
 #categoria-selected {
@@ -59,7 +59,7 @@
 }
 
 .contenedor-productos {
-    margin-top: 10px;
+    margin-top: 1vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -69,12 +69,12 @@
     text-align: center;
     font-size: 3.5vh;
     font-family: 'Amatic SC', sans-serif;
-    height: 400px;
-    width: 220px;
-    border-radius: 10px;
+    height: 55vh;
+    width: 13.5vw;
+    border-radius: 1.5vh;
     background-color: white;
     color: black;
-    margin: 11px;
+    margin: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,10 +83,10 @@
 }
 
 img {
-    height: 220px;
-    width: 170px;
-    border-radius: 5px;
-    margin: 15px;
+    height: 33vh;
+    width: 12vw;
+    border-radius: 2vh;
+    margin: 1vh;
 }
 
 #boton-comprar {
@@ -95,27 +95,27 @@ img {
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
     background: linear-gradient(to right, #f5af19, #f12711);
     color: black;
-    height: 3.4vh;
-    width: 15vh;
-    border-radius: 10px;
+    height: 4.2vh;
+    width: 5.2vw;
+    border-radius: 1vh;
     margin-top: 1vh;
-    margin-bottom: 18px;
+    margin-bottom: 1vh;
     text-align: center;
     justify-content: center;
+    font-family: 'Amatic SC', sans-serif;
     align-items: center;
-    font-size: 2vh;
+    font-size: 3.4vh;
     font-weight: 1000;
 }
 
 #precio {
     font-weight: 1000;
-    margin-left: 130px;
+    margin-left: 7vw;
 }
 
 p {
     display: flex;
     text-align: center;
-    margin-bottom: 3px;
 }
 
 #boton-comprar:hover {
@@ -157,7 +157,6 @@ p {
     letter-spacing: 1vh;
   }
   
-
 @keyframes fadeOut {
     0% {
         opacity: 1;
@@ -168,22 +167,21 @@ p {
         transform: translateY(100%);
     }
 }
-
-
-
 @media (min-width: 280px) and (max-width: 612px) {
-    /* productows */
     .libro-destacado {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 70vw;
+        margin: 0;
+        margin-bottom: 2vh;
     }
     .products {
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
-        margin-top: 0px;
+        margin-top: 0;
         text-align: center;
     }
     .contenedor-productos {
@@ -196,15 +194,20 @@ p {
     #categorias-contenedor {
         display: flex;
     }
+    img {
+        width: 60vw;
+    }
     #precio {
         margin-left: 0;
         margin-right: 0;
+        font-size: 4vh;
         justify-content: center;
     }
+    #boton-comprar {
+        width: 24vw;
+    }
 }
-
 @media (min-width: 613px) and (max-width: 767px) {
-    /* productows */
     .products {
         display: flex;
         margin-top: 0px;
@@ -212,6 +215,9 @@ p {
         height: 100%;
         width: 100%;
         text-align: center;
+    }
+    .libro-destacado {
+        width: 40vw;
     }
     .contenedor-productos {
         width: 100%;
@@ -221,7 +227,10 @@ p {
         flex-wrap: wrap;
     }
     #libro-titulo {
-        font-size: 3vh;
+        font-size: 4vh;
+    }
+    img {
+        width: 70%;
     }
     #categorias-contenedor {
         width: 99%;
@@ -229,17 +238,18 @@ p {
     #precio {
         margin-left: 0;
         margin-right: 0;
+        font-size: 4vh;
         justify-content: center;
     }
     .categorias-button {
-        font-size: 3vh;
+        font-size: 2.8vh;
+        width: 100%;
     }
     #boton-comprar {
-        height: 2.5vh;
-        width: 14vh;
+        height: 3.5vh;
+        width: 17vw;
     }
 }
-
 @media (min-width: 767px) and (max-width: 1023px) {
     .products {
         width: 100%;
@@ -251,6 +261,7 @@ p {
         justify-content: center;
         align-content: center;
         text-align: center;
+        width: 40vw;
     }
     .contenedor-productos {
         width: 93%;
@@ -260,27 +271,30 @@ p {
         flex-wrap: wrap;
     }
     #libro-titulo {
-        font-size: 3vh;
+        font-size: 4vh;
     }
     .categorias-button {
         font-size: 3vh;
+        width: 20vw;
     }
     #precio {
         margin-left: 0;
         margin-right: 0;
+        font-size: 4vh;
         justify-content: center;
     }
+    img {
+        width: 70%;
+    }
     #boton-comprar {
-        height: 2.5vh;
-        width: 14vh;
+        height: 3.5vh;
+        width: 14vw;
     }
 }
-
 @media (min-width: 1023px) and (max-width: 1500px) {
     .products {
         width: 100%;
         height: 110%;
-        margin-top: 60px;
     }
     .contenedor-productos {
         width: 100%;
@@ -290,21 +304,23 @@ p {
         flex-wrap: wrap;
     }
     #libro-titulo {
-        font-size: 2.5vh;
-        margin-top: 1vh;
+        font-size: 3.8vh;
+        margin-top: 0;
     }
     .categorias-button {
-        font-size: 2vh;
+        font-size: 4vh;
+        width: 18vw;
     }
     #precio {
         margin-left: 0;
         margin-right: 0;
+        font-size: 4vh;
         justify-content: center;
     }
     #boton-comprar {
-        height: 2vh;
-        width: 10vh;
+        height: 3.6vh;
+        width: 5.7vw;
         margin-bottom: 1.8vh;
-        font-size: 1.5vh;
+        font-size: 3vh;
     }
 }

@@ -1,5 +1,5 @@
 #producto-agregado {
-    width: 95%;
+    width: 100%;
     height: 12vh;
     display: flex;
     justify-content: space-around;
@@ -7,7 +7,7 @@
     background-color: white;
     color: black;
     margin-top: 1vh;
-    border-radius: 18px;
+    border-radius: 2.5vh;
     font-family: 'Amatic SC', sans-serif;
 }
 
@@ -47,7 +47,7 @@
 
 #book-img {
     height: 10vh;
-    width: 5vw;
+    width: 20%;
     border-radius: 1vh;
     margin: 0;
 }
@@ -57,7 +57,7 @@
     font-size: 2.7vh;
     background-color: rgba(0, 255, 0, 0.415);
     border-radius: 1vh;
-    width: 85%;
+    width: 100%;
     margin-right: 2vw;
     justify-content: center;
 }

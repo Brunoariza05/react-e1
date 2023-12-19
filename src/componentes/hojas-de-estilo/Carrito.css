@@ -2,15 +2,15 @@
     background-color: #f12711;
     position: absolute;
     z-index: 1000;
-    top: 0;
+    top: 1.5vh;
     right: 0;
     min-height: 35vh;
     padding-bottom: 1.2vh;
     width: 20vw;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom: solid 2px;  
-    border-left: solid 2px;  
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+    border-bottom: solid 0.4vh;  
+    border-left: solid 0.4vh;  
     display: none;
     flex-direction: column;
     align-items: center;
@@ -38,7 +38,7 @@
 #carrito-titulo {
     margin-top: 2vh;
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.4vh;
     font-size: 3vh;
     color: black;
     width: 100%;
@@ -46,11 +46,12 @@
 
 #borrar {
     margin: 0;
+    margin-top: 0.8vh;
+    margin-right: 3vh;
     color: black;
     cursor: pointer;
     position: absolute;
     right: 0;
-    margin-right: 3vh;
 }
 
 #borrar:hover {
@@ -61,17 +62,15 @@
 #carrito-vacio {
     font-family: 'Amatic SC', sans-serif;
     margin-top: 5vh;
+    margin-left: 2vh;
     margin-bottom: 5vh;
-    font-size: 3.6vh;
-    margin-left: 4vh;
+    font-size: 4vh;
     font-weight: 1000;
     color: black;
 }
 
 #carrito-vacio-contenedor {
     display: flex;
-    justify-content: center;
-    text-align: center;
     align-items: center;
     width: 90%;
     flex-direction: column;
@@ -102,7 +101,7 @@
 .uno /*hr*/ {
     width: 100%;
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 0.3vh solid white;
     margin-top: 1vh;
 }
 
@@ -177,16 +176,23 @@
         transform: translateY(100%);
     }
 }
-
 @media (min-width: 280px) and (max-width: 1023px) {
     .carrito-contenedor {
+        background: #f12711;
+        background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+        background: linear-gradient(to right, #f5af19, #f12711);
         width: 100%;
+        top: 0;
     }
     #button-finalizar-compra {
         width: 100%;
     }
     #borrar {
         font-size: 3.5vh;
+    }
+    #carrito-vacio {
+        margin-right: 0;
+        margin-left: 4vh;
     }
     #pedido-finalizado-div {
         margin: 0;
@@ -212,10 +218,10 @@
         font-size: 5vh;
     }
 }
-
 @media (min-width: 1023px) and (max-width: 1400px) {
     .carrito-contenedor {
         width: 60%;
+        top: 3.1vh;
     }
     #button-finalizar-compra {
         width: 100%;

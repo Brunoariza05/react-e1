@@ -2,44 +2,38 @@
     color: black;
     background: #f12711;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-    background: linear-gradient(to right, #f5af19, #f12711);    height: 30px;
+    background: linear-gradient(to right, #f5af19, #f12711);    height: 6vh;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 .terminos {
-    font-size: 10px;
+    font-size: 1.7vh;
     font-weight: 1000;
     font-family: Playfair Display;
-    margin-right: 10px;
-    margin-bottom: 4px;
     color: black;
+    text-align: end;
 }
-
 #terminos {
     color: black;
 }
-
 .terminos:hover {
     cursor: pointer;
     scale: 1.05;
 }
-
 .icon {
     color: black;
-    margin-left: 10px;
+    margin-left: 1.5vh;
 }
-
 .logof {
-    font-size: 20px;
+    display: flex;
+    font-size: 3vh;
 }
-
 .icon:hover {
     scale: 1.1;
     cursor: pointer;
 }
-
 #terminos:visited {
     color: black;
 }

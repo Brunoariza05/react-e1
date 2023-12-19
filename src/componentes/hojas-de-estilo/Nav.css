@@ -21,7 +21,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    margin-right: 10px;
+    margin-right: 1vh;
     gap: 2vh;
 }
 
@@ -30,14 +30,14 @@ ul {
 }
 
 li {
-    margin-right: 5px;
-    margin-top: 5px;
+    margin-right: 1vh;
+    margin-top: 0.5vh;
     font-family: 'Amatic SC', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.4vh;
     font-weight: 1000;
     color: black;
     font-size: 3vh;
-    margin-left: 10px;
+    margin-left: 1vh;
 }
 
 .li {
@@ -51,7 +51,7 @@ li:hover, .carrito-icon:hover {
 
 .logos {
     font-size: 4vh;
-    margin-left: 13px;
+    margin-left: 1vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -77,14 +77,9 @@ li:hover, .carrito-icon:hover {
     text-decoration: none;
 }
 
-.link {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .link:hover,
-  .link:active,
-  .link:focus {
+.link:hover,
+.link:active,
+.link:focus {
     color: black;
     font-weight: bold;
   }
@@ -120,7 +115,7 @@ li:hover, .carrito-icon:hover {
         margin-top: 0.3vh;
     }
     .nav {
-        margin-bottom: 0px;
+        margin-bottom: 0;
         width: 100vw;
         display: flex;
         justify-content: space-between;
@@ -136,9 +131,7 @@ li:hover, .carrito-icon:hover {
         display: none;
     }
 }
-
 @media (min-width: 320px) and (max-width: 767px) {
-    /* nav */
     .nav {
         width: 100%;
         position: relative;
@@ -148,7 +141,6 @@ li:hover, .carrito-icon:hover {
         font-size: 2.6vh;
     }
 }
-
 @media (min-width: 767px) and (max-width: 1023px) {
     .nav {
         width: 100%;

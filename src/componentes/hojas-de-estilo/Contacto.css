@@ -1,9 +1,9 @@
 #contacto {
     height: 89vh;
+    margin-top: 8vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 60px;
     align-items: center;
     color: white;
     background-color: black;
@@ -12,7 +12,7 @@
 #contacto-titulo {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 8vh;
-    letter-spacing: 2px;
+    letter-spacing: 0.5vh;
     margin-bottom: 2vh;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
     background: linear-gradient(to right, #f5af19, #f12711);
@@ -31,86 +31,149 @@
 #mapa-contacto {
     height: 60vh;
     width: 45vw;
-    border-radius: 20px;
+    border-radius: 3vh;
 }
 
 form {
     margin-top: 1.5vh;
-    background-color: white;
-    color: black;
     height: 60vh;
     width: 45vw;
+    background-color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    gap: 3vh;
-    border-radius: 20px;
+    justify-content: space-around;
+    gap: 0.5vh;
+    border-radius: 3vh;
 }
 
 #contacto-form-titulo {
-    margin-left: 15vh;
-    margin-top: 5vh;
+    margin-top: 1vh;
     font-family: 'Amatic SC', sans-serif;
     font-weight: 1000;
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 input { 
     width: 80%;
-    font-size: 2vh;
-    margin-top: 0.6vh;
+    font-size: 3vh;
     height: 5vh;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 1vh;
     font-family: 'Amatic SC', sans-serif;
+    font-weight: 1000;
 }
 
 #enviar-boton {
+    height: 4vh;
+    width: 6vw;
+    border-radius: 1vh;
+}
+
+#formulario-enviado-div {
+    height: 100%;
+    width: 98.9vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(169, 255, 39, 0.83);
+    animation: fadeOut 2.5s ease-in-out forwards;
+    animation-delay: 2s;
+}
+
+#formulario-enviado-titulo {
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 12vh;
+    letter-spacing: 0.5vh;
+    margin-left: 5vh;
+}
+
+#formulario-enviado-subtitulo {
+    margin: 0;
+    color: black;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 10vh;
     font-weight: 1000;
+    margin-left: 30vh;
+}
+
+.error-mensaje-formulario {
+    font-size: 3vh;
+    font-weight: 1000;
+    font-family: 'Amatic SC', sans-serif;
+    color: red;
 }
 
 @media (min-width: 280px) and (max-width: 612px) {
     #contacto {
-        height: 86vh;
-        margin-top: 0px;
+        height: 100%;
+        margin-top: 0;
     }
     #contacto-contenedor {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 2vh;
         width: 100%;
     }
     #contacto-titulo {
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
         font-size: 5vh;
     }
     form {
-        margin-top: 0px;
-        margin-bottom: 10px;
-        height: 32vh;
+        margin-top: 0;
+        margin-bottom: 2vh;
+        height: 100%;
         width: 35vh;
-        gap: 0px;
     }
     #contacto-form-titulo {
-        margin: 0px;
-        margin-top: 5px;
-        margin-left: 135px;
+        margin-left: 32vw;
     }
-
     #mapa-contacto {
         margin: 0px;
         height: 32vh;
         width: 35vh;
     }
-    input {
-        margin-bottom: 5px;
+    #formulario-enviado-div {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(169, 255, 39, 0.83);
+        animation: fadeOut 2.5s ease-in-out forwards;
+        animation-delay: 2s;
+    }  
+    #formulario-enviado-titulo {
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4vh;
+        margin-left: 10px;
+    }
+    #formulario-enviado-subtitulo {
+        margin: 0;
+        color: black;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 3vh;
+        font-weight: 1000;
+    }
+    #enviar-boton {
+        width: 15vw;
+        margin-bottom: 0.5vh;
     }
 }
 @media (min-width: 613px) and (max-width: 767px) {
     #contacto {
-        height: 86vh;
+        height: 93.5vh;
         margin-top: 0px;
     }
     #contacto-contenedor {
@@ -121,25 +184,119 @@ input {
     }
     form {
         margin-top: 0px;
-        margin-bottom: 10px;
         height: 60vh;
         width: 45vw;
     }
     #contacto-form-titulo {
-        margin: 0px;
-        margin-top: 20px;
-        margin-left: 135px;
+        margin-top: 0;
+        margin-left: 8.5vh;
     }
-
     #mapa-contacto {
         height: 60vh;
         width: 45vw;
-        margin: 0px;
+        margin: 0;
+    }
+    #formulario-enviado-div {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(169, 255, 39, 0.83);
+        animation: fadeOut 2.5s ease-in-out forwards;
+        animation-delay: 2s;
+    }
+    #formulario-enviado-titulo {
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4vh;
+        margin-left: 10px;
+    }
+    #formulario-enviado-subtitulo {
+        margin: 0;
+        color: black;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 3vh;
+        font-weight: 1000;
+        margin-left: 11vh;
+    }
+    #enviar-boton {
+        width: 20vw;
     }
 }   
-
 @media (min-width: 767px) and (max-width: 1023px) {
     #contacto {
+        margin-top: 0;
         width: 100%;
+    }
+    #contacto-form-titulo {
+        margin: 0;
+        margin-left: 12vh;
+    }
+    #formulario-enviado-div {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(169, 255, 39, 0.83);
+        animation: fadeOut 2.5s ease-in-out forwards;
+        animation-delay: 2s;
+    }
+    #formulario-enviado-titulo {
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 5vh;
+        margin-left: 10px;
+    }   
+    #formulario-enviado-subtitulo {
+        margin: 0;
+        color: black;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 4vh;
+        font-weight: 1000;
+        margin-left: 10vh;
+    }
+    #enviar-boton {
+        width: 15vw;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1400px) {
+    #contacto-form-titulo {
+        margin: 0;
+        margin-left: 47vh;
+    }
+    #formulario-enviado-div {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(169, 255, 39, 0.83);
+        animation: fadeOut 2.5s ease-in-out forwards;
+        animation-delay: 2s;
+    }
+    #formulario-enviado-titulo {
+        color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 8vh;
+        margin-left: 10px;
+    }  
+    #formulario-enviado-subtitulo {
+        margin: 0;
+        color: black;
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 6vh;
+        font-weight: 1000;
+        margin-left: 45vh;
     }
 }
