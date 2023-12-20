@@ -5,6 +5,7 @@ import Menu from "../Menu/Menu";
 import Carrito from "../Carrito/Carrito";
 import { useCarrito } from "../Contexto/ContextoCarrito";
 import { ProveedorMenu } from '../Contexto/ContextoMenu';
+import ProductosDestacados from "./ProductosDestacados";
 
 
 const Hero = () => {
@@ -13,6 +14,7 @@ const Hero = () => {
     const { carritoAbierto } = useCarrito();
 
     return (
+        <>
         <section className="hero" id="INICIO"> 
         <img src="/imagenes/books.jpg" className="heroi" id="img-no"/>
         <img src="/imagenes/books2.jpg" className="heroi"/>
@@ -25,6 +27,9 @@ const Hero = () => {
         <Carrito />
         <Menu />
         </section>
+        <hr></hr>
+        <ProductosDestacados />
+        </>
     )
 };
 
