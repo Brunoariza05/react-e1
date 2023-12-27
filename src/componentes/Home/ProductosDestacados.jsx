@@ -10,7 +10,7 @@ const ProductosDestacados = () => {
             <div className="producto-destacado">
                 <h2 className="producto-destacado-titulo">el principito</h2>
                 <img className="producto-destacado-imagen" src="/imagenes/principito.webp"/>
-                <h3 className="producto-destacado-precio">$25000</h3>
+                <h3 className="producto-destacado-precio">     $25000</h3>
             </div>
             <div className="producto-destacado">
                 <h2 className="producto-destacado-titulo">la biblia</h2>
